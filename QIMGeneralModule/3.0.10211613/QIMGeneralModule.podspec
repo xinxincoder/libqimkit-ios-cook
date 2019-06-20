@@ -109,5 +109,5 @@ Pod::Spec.new do |s|
   s.dependency 'Masonry'
 
   s.frameworks = 'Foundation', 'UIKit', 'AVFoundation', 'CoreTelephony'
-
+  s.static_framework = true
 end
